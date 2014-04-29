@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EDBDAB2190F576100AEC50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDBDAB1190F576100AEC50E /* Foundation.framework */; };
+		9EDBDAB4190F576100AEC50E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDBDAB3190F576100AEC50E /* CoreGraphics.framework */; };
+		9EDBDAB6190F576100AEC50E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDBDAB5190F576100AEC50E /* UIKit.framework */; };
+		9EDBDABC190F576100AEC50E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EDBDABA190F576100AEC50E /* InfoPlist.strings */; };
+		9EDBDABE190F576100AEC50E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDBDABD190F576100AEC50E /* main.m */; };
+		9EDBDAC2190F576100AEC50E /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDBDAC1190F576100AEC50E /* CardGameAppDelegate.m */; };
+		9EDBDAC5190F576200AEC50E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDBDAC3190F576200AEC50E /* Main.storyboard */; };
+		9EDBDAC8190F576200AEC50E /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDBDAC7190F576200AEC50E /* CardGameViewController.m */; };
+		9EDBDACA190F576200AEC50E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDBDAC9190F576200AEC50E /* Images.xcassets */; };
+		9EDBDAD1190F576200AEC50E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDBDAD0190F576200AEC50E /* XCTest.framework */; };
+		9EDBDAD2190F576200AEC50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDBDAB1190F576100AEC50E /* Foundation.framework */; };
+		9EDBDAD3190F576200AEC50E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDBDAB5190F576100AEC50E /* UIKit.framework */; };
+		9EDBDADB190F576200AEC50E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EDBDAD9190F576200AEC50E /* InfoPlist.strings */; };
+		9EDBDADD190F576200AEC50E /* Card_FlipperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDBDADC190F576200AEC50E /* Card_FlipperTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EDBDAD4190F576200AEC50E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EDBDAA6190F576100AEC50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EDBDAAD190F576100AEC50E;
+			remoteInfo = "Card Flipper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EDBDAAE190F576100AEC50E /* Card Flipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Flipper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDBDAB1190F576100AEC50E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9EDBDAB3190F576100AEC50E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9EDBDAB5190F576100AEC50E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9EDBDAB9190F576100AEC50E /* Card Flipper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Card Flipper-Info.plist"; sourceTree = "<group>"; };
+		9EDBDABB190F576100AEC50E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EDBDABD190F576100AEC50E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EDBDABF190F576100AEC50E /* Card Flipper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Card Flipper-Prefix.pch"; sourceTree = "<group>"; };
+		9EDBDAC0190F576100AEC50E /* CardGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameAppDelegate.h; sourceTree = "<group>"; };
+		9EDBDAC1190F576100AEC50E /* CardGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameAppDelegate.m; sourceTree = "<group>"; };
+		9EDBDAC4190F576200AEC50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EDBDAC6190F576200AEC50E /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		9EDBDAC7190F576200AEC50E /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		9EDBDAC9190F576200AEC50E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9EDBDACF190F576200AEC50E /* Card FlipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card FlipperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDBDAD0190F576200AEC50E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9EDBDAD8190F576200AEC50E /* Card FlipperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Card FlipperTests-Info.plist"; sourceTree = "<group>"; };
+		9EDBDADA190F576200AEC50E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EDBDADC190F576200AEC50E /* Card_FlipperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card_FlipperTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EDBDAAB190F576100AEC50E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDBDAB4190F576100AEC50E /* CoreGraphics.framework in Frameworks */,
+				9EDBDAB6190F576100AEC50E /* UIKit.framework in Frameworks */,
+				9EDBDAB2190F576100AEC50E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDBDACC190F576200AEC50E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDBDAD1190F576200AEC50E /* XCTest.framework in Frameworks */,
+				9EDBDAD3190F576200AEC50E /* UIKit.framework in Frameworks */,
+				9EDBDAD2190F576200AEC50E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EDBDAA5190F576100AEC50E = {
+			isa = PBXGroup;
+			children = (
+				9EDBDAB7190F576100AEC50E /* Card Flipper */,
+				9EDBDAD6190F576200AEC50E /* Card FlipperTests */,
+				9EDBDAB0190F576100AEC50E /* Frameworks */,
+				9EDBDAAF190F576100AEC50E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EDBDAAF190F576100AEC50E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EDBDAAE190F576100AEC50E /* Card Flipper.app */,
+				9EDBDACF190F576200AEC50E /* Card FlipperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EDBDAB0190F576100AEC50E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EDBDAB1190F576100AEC50E /* Foundation.framework */,
+				9EDBDAB3190F576100AEC50E /* CoreGraphics.framework */,
+				9EDBDAB5190F576100AEC50E /* UIKit.framework */,
+				9EDBDAD0190F576200AEC50E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EDBDAB7190F576100AEC50E /* Card Flipper */ = {
+			isa = PBXGroup;
+			children = (
+				9EDBDAC0190F576100AEC50E /* CardGameAppDelegate.h */,
+				9EDBDAC1190F576100AEC50E /* CardGameAppDelegate.m */,
+				9EDBDAC3190F576200AEC50E /* Main.storyboard */,
+				9EDBDAC6190F576200AEC50E /* CardGameViewController.h */,
+				9EDBDAC7190F576200AEC50E /* CardGameViewController.m */,
+				9EDBDAC9190F576200AEC50E /* Images.xcassets */,
+				9EDBDAB8190F576100AEC50E /* Supporting Files */,
+			);
+			path = "Card Flipper";
+			sourceTree = "<group>";
+		};
+		9EDBDAB8190F576100AEC50E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EDBDAB9190F576100AEC50E /* Card Flipper-Info.plist */,
+				9EDBDABA190F576100AEC50E /* InfoPlist.strings */,
+				9EDBDABD190F576100AEC50E /* main.m */,
+				9EDBDABF190F576100AEC50E /* Card Flipper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EDBDAD6190F576200AEC50E /* Card FlipperTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EDBDADC190F576200AEC50E /* Card_FlipperTests.m */,
+				9EDBDAD7190F576200AEC50E /* Supporting Files */,
+			);
+			path = "Card FlipperTests";
+			sourceTree = "<group>";
+		};
+		9EDBDAD7190F576200AEC50E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EDBDAD8190F576200AEC50E /* Card FlipperTests-Info.plist */,
+				9EDBDAD9190F576200AEC50E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EDBDAAD190F576100AEC50E /* Card Flipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDBDAE0190F576200AEC50E /* Build configuration list for PBXNativeTarget "Card Flipper" */;
+			buildPhases = (
+				9EDBDAAA190F576100AEC50E /* Sources */,
+				9EDBDAAB190F576100AEC50E /* Frameworks */,
+				9EDBDAAC190F576100AEC50E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Flipper";
+			productName = "Card Flipper";
+			productReference = 9EDBDAAE190F576100AEC50E /* Card Flipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EDBDACE190F576200AEC50E /* Card FlipperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDBDAE3190F576200AEC50E /* Build configuration list for PBXNativeTarget "Card FlipperTests" */;
+			buildPhases = (
+				9EDBDACB190F576200AEC50E /* Sources */,
+				9EDBDACC190F576200AEC50E /* Frameworks */,
+				9EDBDACD190F576200AEC50E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EDBDAD5190F576200AEC50E /* PBXTargetDependency */,
+			);
+			name = "Card FlipperTests";
+			productName = "Card FlipperTests";
+			productReference = 9EDBDACF190F576200AEC50E /* Card FlipperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EDBDAA6190F576100AEC50E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CardGame;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stanford University cs193p";
+				TargetAttributes = {
+					9EDBDACE190F576200AEC50E = {
+						TestTargetID = 9EDBDAAD190F576100AEC50E;
+					};
+				};
+			};
+			buildConfigurationList = 9EDBDAA9190F576100AEC50E /* Build configuration list for PBXProject "Card Flipper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EDBDAA5190F576100AEC50E;
+			productRefGroup = 9EDBDAAF190F576100AEC50E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EDBDAAD190F576100AEC50E /* Card Flipper */,
+				9EDBDACE190F576200AEC50E /* Card FlipperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EDBDAAC190F576100AEC50E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDBDACA190F576200AEC50E /* Images.xcassets in Resources */,
+				9EDBDABC190F576100AEC50E /* InfoPlist.strings in Resources */,
+				9EDBDAC5190F576200AEC50E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDBDACD190F576200AEC50E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDBDADB190F576200AEC50E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EDBDAAA190F576100AEC50E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDBDAC2190F576100AEC50E /* CardGameAppDelegate.m in Sources */,
+				9EDBDAC8190F576200AEC50E /* CardGameViewController.m in Sources */,
+				9EDBDABE190F576100AEC50E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDBDACB190F576200AEC50E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDBDADD190F576200AEC50E /* Card_FlipperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EDBDAD5190F576200AEC50E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EDBDAAD190F576100AEC50E /* Card Flipper */;
+			targetProxy = 9EDBDAD4190F576200AEC50E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EDBDABA190F576100AEC50E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EDBDABB190F576100AEC50E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9EDBDAC3190F576200AEC50E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EDBDAC4190F576200AEC50E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EDBDAD9190F576200AEC50E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EDBDADA190F576200AEC50E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EDBDADE190F576200AEC50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EDBDADF190F576200AEC50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EDBDAE1190F576200AEC50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Card Flipper/Card Flipper-Prefix.pch";
+				INFOPLIST_FILE = "Card Flipper/Card Flipper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9EDBDAE2190F576200AEC50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Card Flipper/Card Flipper-Prefix.pch";
+				INFOPLIST_FILE = "Card Flipper/Card Flipper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9EDBDAE4190F576200AEC50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Card Flipper.app/Card Flipper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Card Flipper/Card Flipper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Card FlipperTests/Card FlipperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9EDBDAE5190F576200AEC50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Card Flipper.app/Card Flipper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Card Flipper/Card Flipper-Prefix.pch";
+				INFOPLIST_FILE = "Card FlipperTests/Card FlipperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EDBDAA9190F576100AEC50E /* Build configuration list for PBXProject "Card Flipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDBDADE190F576200AEC50E /* Debug */,
+				9EDBDADF190F576200AEC50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EDBDAE0190F576200AEC50E /* Build configuration list for PBXNativeTarget "Card Flipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDBDAE1190F576200AEC50E /* Debug */,
+				9EDBDAE2190F576200AEC50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EDBDAE3190F576200AEC50E /* Build configuration list for PBXNativeTarget "Card FlipperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDBDAE4190F576200AEC50E /* Debug */,
+				9EDBDAE5190F576200AEC50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EDBDAA6190F576100AEC50E /* Project object */;
+}
