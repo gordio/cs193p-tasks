@@ -10,6 +10,22 @@
 
 @implementation Deck
 
+- (id)init {
+    NSString *nom = nil;
+    NSString *suit = nil;
+    
+    if (self = [super init]) {
+        for (nom in @[@"6", @"7", @"8", @"9", @"10", @"B", @"D", @"K", @"T"]) {
+            for (suit in @[@"♠", @"♣", @"♥", @"♦"]) {
+                Card *card = [[Card alloc] init];
+                card.content = [NSString stringWithFormat:@"%@%@", nom, suit];
+                [self addCard:card];
+            }
+        }
+    }
+    
+    return self;
+}
 
 - (NSMutableArray *)cards {
     if (!_cards) _cards = [[NSMutableArray alloc] init];
