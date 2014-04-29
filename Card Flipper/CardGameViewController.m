@@ -15,12 +15,18 @@
 
 @implementation CardGameViewController
 
+- (Deck *)deck {
+    if (!_deck)
+        _deck = [[Deck alloc] init];
+
+    return _deck;
+}
+
 - (IBAction)touchCard:(UIButton *)button {
     if (![button.currentTitle length]) {
-        Deck *deck = [Deck new];
         // Front
         [button setImage:nil forState:UIControlStateNormal];
-        Card *card = [deck getRandomCard];
+        Card *card = [self.deck getRandomCard];
         [button setTitle:card.content forState:UIControlStateNormal];
     } else {
         // Back
