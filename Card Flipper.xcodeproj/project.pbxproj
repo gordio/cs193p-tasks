@@ -112,8 +112,6 @@
 		9EDBDAB7190F576100AEC50E /* Card Flipper */ = {
 			isa = PBXGroup;
 			children = (
-				9EDBDAC0190F576100AEC50E /* CardGameAppDelegate.h */,
-				9EDBDAC1190F576100AEC50E /* CardGameAppDelegate.m */,
 				9EDBDAC3190F576200AEC50E /* Main.storyboard */,
 				9EDBDAC6190F576200AEC50E /* CardGameViewController.h */,
 				9EDBDAC7190F576200AEC50E /* CardGameViewController.m */,
@@ -126,6 +124,8 @@
 		9EDBDAB8190F576100AEC50E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9EDBDAC0190F576100AEC50E /* CardGameAppDelegate.h */,
+				9EDBDAC1190F576100AEC50E /* CardGameAppDelegate.m */,
 				9EDBDAB9190F576100AEC50E /* Card Flipper-Info.plist */,
 				9EDBDABA190F576100AEC50E /* InfoPlist.strings */,
 				9EDBDABD190F576100AEC50E /* main.m */,
@@ -381,6 +381,7 @@
 				GCC_PREFIX_HEADER = "Card Flipper/Card Flipper-Prefix.pch";
 				INFOPLIST_FILE = "Card Flipper/Card Flipper-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,6 +395,7 @@
 				GCC_PREFIX_HEADER = "Card Flipper/Card Flipper-Prefix.pch";
 				INFOPLIST_FILE = "Card Flipper/Card Flipper-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
