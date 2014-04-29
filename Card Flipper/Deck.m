@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Stanford University cs193p. All rights reserved.
 //
 
-#import "Card.h"
 #import "Deck.h"
 
 @implementation Deck
