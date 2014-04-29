@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E6546CF190F5F0000A1F92B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6546CE190F5F0000A1F92B /* Card.m */; };
 		9EDBDAB2190F576100AEC50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDBDAB1190F576100AEC50E /* Foundation.framework */; };
 		9EDBDAB4190F576100AEC50E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDBDAB3190F576100AEC50E /* CoreGraphics.framework */; };
 		9EDBDAB6190F576100AEC50E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDBDAB5190F576100AEC50E /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E6546CD190F5F0000A1F92B /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		9E6546CE190F5F0000A1F92B /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		9EDBDAAE190F576100AEC50E /* Card Flipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Flipper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDBDAB1190F576100AEC50E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9EDBDAB3190F576100AEC50E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				9EDBDAC3190F576200AEC50E /* Main.storyboard */,
+				9E6546CD190F5F0000A1F92B /* Card.h */,
+				9E6546CE190F5F0000A1F92B /* Card.m */,
 				9EDBDAC6190F576200AEC50E /* CardGameViewController.h */,
 				9EDBDAC7190F576200AEC50E /* CardGameViewController.m */,
 				9EDBDAC9190F576200AEC50E /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				9EDBDAC2190F576100AEC50E /* CardGameAppDelegate.m in Sources */,
 				9EDBDAC8190F576200AEC50E /* CardGameViewController.m in Sources */,
 				9EDBDABE190F576100AEC50E /* main.m in Sources */,
+				9E6546CF190F5F0000A1F92B /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +465,7 @@
 				9EDBDAE2190F576200AEC50E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EDBDAE3190F576200AEC50E /* Build configuration list for PBXNativeTarget "Card FlipperTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +474,7 @@
 				9EDBDAE5190F576200AEC50E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
