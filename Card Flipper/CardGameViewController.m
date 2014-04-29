@@ -17,10 +17,11 @@
 
 - (IBAction)touchCard:(UIButton *)button {
     if (![button.currentTitle length]) {
+        Deck *deck = [Deck new];
         // Front
         [button setImage:nil forState:UIControlStateNormal];
-        // FIXME: Get random Card from Deck
-        [button setTitle:@"7♣" forState:UIControlStateNormal];
+        Card *card = [deck getRandomCard];
+        [button setTitle:card.content forState:UIControlStateNormal];
     } else {
         // Back
         [button setImage:[UIImage imageNamed:@"cardicon"] forState:UIControlStateNormal];
